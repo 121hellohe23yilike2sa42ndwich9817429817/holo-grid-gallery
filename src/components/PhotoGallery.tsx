@@ -5,77 +5,77 @@ import PhotoCard from './PhotoCard';
 const PhotoGallery = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
-  // Photos will be loaded from the public/photos folder
+  // Using direct Picsum URLs for placeholder images
   const photos = [
     {
       id: 1,
-      src: "/photos/photo1.jpg",
+      src: "https://picsum.photos/800/600?random=1",
       alt: "Landscape photography",
       height: "h-64"
     },
     {
       id: 2,
-      src: "/photos/photo2.jpg", 
+      src: "https://picsum.photos/800/800?random=2", 
       alt: "Portrait photography",
       height: "h-80"
     },
     {
       id: 3,
-      src: "/photos/photo3.jpg",
+      src: "https://picsum.photos/800/500?random=3",
       alt: "Street photography",
       height: "h-56"
     },
     {
       id: 4,
-      src: "/photos/photo4.jpg",
+      src: "https://picsum.photos/800/700?random=4",
       alt: "Nature photography",
       height: "h-72"
     },
     {
       id: 5,
-      src: "/photos/photo5.jpg",
+      src: "https://picsum.photos/800/600?random=5",
       alt: "Urban photography",
       height: "h-64"
     },
     {
       id: 6,
-      src: "/photos/photo6.jpg",
+      src: "https://picsum.photos/800/900?random=6",
       alt: "Abstract photography",
       height: "h-96"
     },
     {
       id: 7,
-      src: "/photos/photo7.jpg",
+      src: "https://picsum.photos/800/550?random=7",
       alt: "Architecture photography",
       height: "h-60"
     },
     {
       id: 8,
-      src: "/photos/photo8.jpg",
+      src: "https://picsum.photos/800/750?random=8",
       alt: "Wildlife photography",
       height: "h-76"
     },
     {
       id: 9,
-      src: "/photos/photo9.jpg",
+      src: "https://picsum.photos/800/650?random=9",
       alt: "Travel photography",
       height: "h-68"
     },
     {
       id: 10,
-      src: "/photos/photo10.jpg",
+      src: "https://picsum.photos/800/800?random=10",
       alt: "Macro photography",
       height: "h-80"
     },
     {
       id: 11,
-      src: "/photos/photo11.jpg",
+      src: "https://picsum.photos/800/600?random=11",
       alt: "Event photography",
       height: "h-64"
     },
     {
       id: 12,
-      src: "/photos/photo12.jpg",
+      src: "https://picsum.photos/800/700?random=12",
       alt: "Fashion photography",
       height: "h-72"
     }
